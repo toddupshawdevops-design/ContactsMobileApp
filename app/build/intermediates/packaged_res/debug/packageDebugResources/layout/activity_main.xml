@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:background="#F4F7FB">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/my_contacts" android:textSize="30sp" android:textStyle="bold"
+        android:textColor="#17324D" android:layout_marginBottom="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/your_saved_contacts" android:textSize="16sp" android:textColor="#526477"
+        android:layout_marginBottom="28dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/section_a" android:textSize="22sp" android:textStyle="bold" android:textColor="#17324D"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/ava_anderson" android:textSize="19sp" android:textColor="#172B3A"
+        android:paddingTop="14dp" android:paddingBottom="10dp"/>
+    <Button android:id="@+id/btnContactOne" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="@string/view_ava_details"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/aaron_adams" android:textSize="19sp" android:textColor="#172B3A"
+        android:paddingTop="24dp" android:paddingBottom="10dp"/>
+    <Button android:id="@+id/btnContactTwo" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="@string/view_aaron_details"/>
+</LinearLayout>

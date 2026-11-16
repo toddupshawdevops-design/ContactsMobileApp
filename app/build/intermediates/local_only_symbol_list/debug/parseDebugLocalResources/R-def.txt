@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+id btnBackOne
+id btnBackTwo
+id btnContactOne
+id btnContactTwo
+layout activity_contact_one
+layout activity_contact_two
+layout activity_main
+string aaron_adams
+string aaron_address
+string aaron_email
+string aaron_phone
+string app_name
+string ava_address
+string ava_anderson
+string ava_email
+string ava_phone
+string back_to_contacts
+string contact_details
+string my_contacts
+string section_a
+string view_aaron_details
+string view_ava_details
+string your_saved_contacts
